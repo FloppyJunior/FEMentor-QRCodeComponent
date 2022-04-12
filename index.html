@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    /* best viewport size : 394 * 660 */
+    :root {
+      box-sizing: border-box;
+
+      --col-white: hsl(0, 0%, 100%);
+      --col-gray: hsl(212, 45%, 89%);
+      --col-gray-blue: hsl(220, 15%, 55%);
+      --col-dark-blue: hsl(218, 44%, 22%);
+
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-size: 15px;
+      font-family: 'Outfit', sans-serif;
+      background-color: #7fadff66;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ly-main {
+      width: min(70%, 317px);
+      margin: auto;
+      padding: 1.2em;
+    }
+
+    .ly-main img {
+      max-width: 100%;
+      border-radius: 4.5%;
+    }
+
+    .ly-main h1 {
+      font-size: 1.4rem;
+    }
+
+    .ly-main p {
+      font-size: 1rem;
+      color: var(--col-gray-blue);
+      padding-inline: 0.6em;
+    }
+
+    .st-main {
+      background-color: white;
+      border-radius: 4.5%;
+      text-align: center;
+    }
+
+    .padx {
+      padding-inline: 0.5em;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="ly-main st-main">
+    <img src="./images/image-qr-code.png" alt="QR Code">
+    <h1 class="padx">Improve your front-end skills by building projects</h1>
+    <p class="padx">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">FloppyJunior</a>.
+  </div>
+</body>
+</html>
